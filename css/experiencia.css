@@ -1,0 +1,147 @@
+.experiences{
+
+    display: flex; /* Ajusta la section a los svg */
+    flex-direction: column; 
+}
+
+
+
+.experiences-body{
+    
+    background-color: #124f88;
+    color: white;
+}
+
+.wave{
+
+    width: 100%;
+    position: relative;
+    top: 2px; /* Quitar pixeles entre contenidos*/
+}
+
+.wave-bottom{
+    transform: scaleY(-1.5); /* Para invertir el svg wave*/
+    top:-2px;  /* Quitar pixeles entre contenidos*/
+    z-index: 1;
+}
+
+
+.experiences-date{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.experiences-title{
+    text-align: center;
+    font-weight: Montserrat;
+    font-size: 50px;
+    margin: 25px;
+}
+
+
+.experiences-company{
+  
+    font-size: 20px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+.experiences-position{
+    font-weight: Montserrat;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.experiencia-descripcion{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.experience{
+    padding : 25px; 
+    max-width: 500px; /* Para ajustar el texto y sea legible*/
+    margin: 0 auto; /* Para centrar el contenido */
+
+}
+
+
+/*  
+    Se una una mediaquery para adaptar el diseño 
+    en equipos de escritorio
+*/
+@media(min-width:950px){
+
+    .experiences-title{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        margin: 25px;
+    }
+    .experiences-date{
+        font-size: 25px;
+        font-weight: bold;
+       
+    }
+    
+    .experiences-company{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .experiences-position{
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    .experiencia-descripcion{
+        font-weight: 400;
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .experience{
+        padding : 0;
+    }
+
+    .exp_left{
+        
+    }
+
+    .experiences-grid{
+        display: grid; /* Transforma los elemntos a grid items " Primer nivel"*/
+        grid-template-columns: auto 2px auto; /*Definimos 3 columnas*/
+        gap: 20px 70px; 
+        padding: 70px;
+        justify-content: center;
+        max-width: auto;
+        margin: 0 auto;
+    }
+
+    .line{
+        background-color: white; /* Color del div line*/        
+        position: relative; /*para alinear con absolute*/
+    }
+
+    /*Pseudo elementos*/
+    .line::before,
+    .line::after{
+        content: ""; /* Siempre debe ir content ya sea vacio */
+        display: block; 
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute; /* Para posicionar al inicio y final del elemento*/
+        top: -20px;
+        left: -9px;
+
+    }
+
+    .line::after{ /* Posicionar desde el inicio del elemento*/
+        top: 100%;
+
+    }
+}

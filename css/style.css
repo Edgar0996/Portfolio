@@ -1,0 +1,42 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+section[id]{
+    
+    scroll-margin-top: 69px;
+}
+.materia{
+    
+    width: 120px;
+    height: 120px;
+    background-color: none;
+    opacity: 0.6;
+}
+
+.logo{
+
+    width: 100px;
+    height: 60px;
+    background-color: none;
+    opacity: 0.9;
+}
+
+.titulo{
+
+    font-weight: bold;
+}
+
+.skill{
+    
+    font-weight:600;
+    font-size: 15px;
+}

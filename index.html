@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link type="shortcut icon" href="images/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/experiencia.css">
+    <link rel="stylesheet" href="css/educacion.css">
+    
+    <title>My portfolio</title>
+</head>
+
+
+<body>
+
+    <!--Barra de navegacion horizontal-->
+    <div class="navbar-fixed">
+        <nav class="cyan darken-4">
+
+            <div class="container">
+
+                <a href="" class=" brand-logo animate__animated animate__fadeInDown valign-wrapper">
+
+                    <img src="images/edr.png" alt="" class="logo responsive-img">
+                </a>
+            </div>
+
+            <div class="container">
+                <ul class="right hide-on-med-and-down right">
+                    <li class="active "><a class="modal-trigger" href="#modal1">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#expertice">Expertice</a></li>
+                    <li><a href="#proyects">Proyects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i
+                        class="material-icons white-text ">menu</i></a>
+
+            </div>
+        </nav>
+
+
+    </div>
+    <!--Barra de navegacion horizontal-->
+
+    <!--Barra lateral de navegacion-->
+    <ul id="slide-out" class="sidenav">
+
+
+
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="images/back.png">
+                </div>
+                <a href="https://www.facebook.com/omar.vazquezlopez/"><img class="circle" src="images/yo1.jpg"></a>
+                <a href="#name"><span class="white-text name">Vázquez López Edgar</span></a>
+                <a href="mailto:vzzlor@gmail.com? subject=subject text"><span
+                        class="white-text email">vzzlor@gmail.com</span></a>
+            </div>
+
+        </li>
+
+        <li><a class="waves-effect waves-purple sidenav-close modal-trigger" href="#modal1"><i
+                    class="material-icons">person</i>About
+                me</a></li>
+        <li><a class="waves-effect waves-purple" target="_blank" href="https://github.com/Edgar0996"><i
+                    class="material-icons">link</i>My GitHub</a></li>
+        <li><a class="waves-effect waves-purple sidenav-close" href="#education"><i
+                    class="material-icons">school</i>Education</a>
+        </li>
+        <li><a class="waves-effect waves-purple sidenav-close" href="#expertice"><i
+                    class="material-icons">work</i>Expertice</a></li>
+        <li><a class="waves-effect waves-purple sidenav-close" href="#proyects"><i
+                    class="material-icons">folder</i>Proyects</a></li>
+        <li><a class="waves-effect waves-purple sidenav-close modal-trigger" href="#modal2"><i
+                    class="material-icons">accessibility</i>Contact</a></li>
+        <li><a class="waves-effect waves-green" href="docs/CV.pdf" download="CV"><i
+                    class="material-icons">download</i>Download CV</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a class="subheader">Social Media</a></li>
+        <li><a target="_blank" class="waves-effect waves-green "
+                href="https://www.facebook.com/omar.vazquezlopez/">Facebook</a></li>
+        <li><a target="_blank" class="waves-effect waves-purple"
+                href="https://www.facebook.com/omar.vazquezlopez/">Instagram</a></li>
+        <li><a target="_blank" class="waves-effect waves-red"
+                href="https://www.facebook.com/omar.vazquezlopez/">YouTube</a></li>
+
+        <div class="divider"></div>
+        <li><a class="subheader">Interests</a></li>
+        <li><a class="waves-effect waves-yellow sidenav-close" href="#hobbies">Hobbies</a></li>
+        <li><a class="sidenav-close waves-effect waves-red" href="#!">Close</a> </li>
+
+
+    </ul>
+    <!--Fin de la barra lateral de navegacion-->
+
+    <!--Seccion de Slider-->
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="images/fondo2.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Welcome to my portfolio!</h1>
+                    <h4 class=" black-text text-lighten-3">You'll find information about me.</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/fondo1.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                    <h1>I´m IT engineer</h1>
+                    <h4 class="light white-text text-lighten-3">I love tecnologies.</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/fondo3.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                    <h1>I'm a responsible person.</h1>
+                    <h4 class="light white-text text-lighten-3">I'm looking an opportunity to work whit you!</h4>
+                </div>
+            </li>
+            <li>
+                <img src="images/fondo4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                    <h1>Contact me !</h1>
+                    <h4 class="white-text">My ultimate goal it's get a great job and knowledge about
+                        more technologies.</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--Fin de Seccion de Slider-->
+
+
+
+
+
+
+    <!--Seccion de los Proyectos -->
+
+
+    <section class="container" id="proyects">
+
+        <div class="left-align ">
+
+            <blockquote class="animate__animated animate__slideInLeft">
+
+                <h3 class="left-align titulo">Proyects</h3>
+
+            </blockquote>
+
+        </div>
+
+        <div class="row ">
+            <div class="col s12 m12 ">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/pgary.png">
+                        <span class="card-title card-panel red darken-4">Producciones Garibay</span>
+                        <a class="btn-floating halfway-fab waves-effect waves-light red pulse "><i
+                                class="material-icons">send</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>Empresa dedicada a eventos sociales con sede en "Ubicaion", teniendo como prioridad a sus
+                            clientes y la diversion que puedan tener en sus eventos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row ">
+            <div class="col s12 m12">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/eytec.png">
+                        <span class="card-title card-panel cyan lighten-2">EyTec Informática</span>
+                        <a href="http://50.21.176.31/Farmacomin/"
+                            class="btn-floating halfway-fab waves-effect waves-light cyan pulse "><i
+                                class="material-icons">send</i></a>
+                    </div>
+                    <div class="card-content">
+                        <p>Micro empresa dedicada al soporte tecnico, las reparaciones de equipos electrónicos, venta de
+                            equipo de computo y dispositivos móviles
+                            con sede en "Ubicaion", su principal objetivo es cuidar el bolsillo de sus clientes y su
+                            meta es que los posibles clientes sean estafados.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Fin de seccion de lasProyectos -->
+
+
+
+
+
+
+
+    <!--Boton flortante-->
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large green pulse">
+            <i class="large material-icons">add</i>
+        </a>
+        <ul>
+            <li><a class="btn-floating teal  tooltipped" data-tooltip="Download CV" data-position="left"
+                    href="docs/CV.pdf" download="CV"><i class="material-icons -text">download</i></a></li>
+
+            <li><a href="#modal2" class="btn-floating blue tooltipped modal-trigger" data-tooltip="Contact"
+                    data-position="left"><i class="material-icons">send</i></a></li>
+
+        </ul>
+    </div>
+    <!--Fin de boton flortante-->
+
+
+    <!--Seccion de Educación-->
+
+    
+    <section class="container" id="education">
+        
+        <h3 class="header  school-tittle  center"> 
+            <blockquote>
+                Education
+            </blockquote>
+        </h3>
+
+        <div class="row ">
+
+            <div class="col s12 m5 center ">
+                <img src="images/conalep.jpg" class=" responsive-img">
+
+            </div>
+            <div class="col s12 m7  animate__animated animate__fadeInLeft center">
+
+                <h5 class="school-tittle">Colegio Nacional de Educacion Profesional</h5>
+                <p class="education-p">
+                    Egresado en 2015 <br>
+                    Grado de Profesional Tecnco Bachiller en Mantenimiento de Sistemas Electronicos
+                </p>
+
+            </div>
+
+            
+        </div>
+
+       
+
+        <div class="row ">
+
+            <div class="col s12 m5 center ">
+
+                <img src="images/uttec.jpg" alt="" class="responsive-img">
+
+            </div>
+            <div class="col s12 m7 animate__animated animate__fadeInRight center">
+                <h5 class="brand-logo school-tittle">Universidad Tecnologica de Tecamac</h5>
+                <p class="education-p">
+                    Egresado en 2019 <br>
+                    Tecnico Superior Universitario en Tecnologias de la Informacion y Comunicacion Area Sistemas
+                    Informaticos<br>
+                    Egresado en 2021 <br>
+                    Ingenieria en Tecnologias de la Informacion y Comunicacion
+
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!--Fin de seccion de Educación-->
+
+
+    <!--Seccion de Habilidades-->
+
+    <section class="container" id="skills">
+        <div class="row">
+
+            <div class="col s12 m12 center-align">
+
+                <blockquote>
+
+                    <h4 class="titulo">Skills</h4>
+
+
+                    <div class="chip yellow skill">
+                        Materialize
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip green white-text skill">
+                        Php
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip cyan white-text skill">
+                        Bootstrap
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip blue white-text skill">
+                        Nginx
+                        <i class="close material-icons ">close</i>
+                    </div>
+                    <div class="chip  skill">
+                        R
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip red white-text skill">
+                        Java
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip blue white-text skill">
+                        C#
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip green white-text skill">
+                        MariaDB
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip orange white-text skill">
+                        MySQL
+                        <i class="close material-icons">close</i>
+                    </div>
+                    <div class="chip yellow skill">
+                        VirtualBox
+                        <i class="close material-icons">close</i>
+                    </div>
+
+                </blockquote>
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+    <!--Fin de seccion de Habilidades-->
+
+
+    <!--Seccion de experiencia de trabajo-->
+
+    <section class="experiences" id="expertice">
+
+        <img src="images/wave.svg" alt="wave"  class="wave">
+
+        <div class="experiences-body">
+            <h2 class="experiences-title">Expertice</h2>
+            <div class="experiences-grid">
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experiences-date">2019</div>
+                    <div class="experiences-company">Conalep Ciudad Azteca</div>
+                    <div class="experiences-position">Soporte Tecnico</div>
+                    <div class="experiencia-descripcion">
+                        <span>Activities:</span>
+                        <ol class="" >
+                            <li>Actividades administrativas de gestión para la
+                                presentación de la aplicación Conapp Parents</li>
+                            <li>Administración y gestión de usuarios en la
+                                plataforma Conapp Parents</li>
+                            <li>Mantenimiento preventivo y correctivo a equipos
+                                de cómputo</li>
+                            <li>Montaje y equipamiento de laboratorio de
+                                cómputo</li>
+                            <li>Cableado estructurado</li>
+
+
+                        </ol>
+                    </div>
+                </div>
+                <div class="experience exp_left">
+                    <div class="experiences-date">2021</div>
+                    <div class="experiences-company">Eclipse Telecomunicaciones S.A de C.V</div>
+                    <div class="experiences-position">Analista de Sistemas</div>
+                    <div class="experiencia-descripcion">
+                        <span>Tasks:</span>
+                        <ol class="">
+                            <li>Análisis y levantamiento de requerimientos</li>
+                            <li>Creación de bases de datos (MySQL)</li>
+                            <li>Diseño de bases de datos (MySQL)</li>
+                            <li>Diseño de Mockups</li>
+                            <li>Documentación técnica (UML)</li>
+                            <li>Introducción a DevOps</li>
+                            <li>Trabajo en equipo mediante SCRUM</li>
+
+
+                        </ol>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="empty"></div>
+                <div class="empty"></div>
+                <div class="line"></div>
+                <div class="experience">
+                    <div class="experiences-date">2021</div>
+                    <div class="experiences-company">Inpyme</div>
+                    <div class="experiences-position">Ingeniero de Sistemas</div>
+                    <div class="experiencia-descripcion">
+
+                        <span>Assingments:</span>
+                        <ol class="">
+                            <li>Administración de osTicket</li>
+                            <li>Desarrollo web</li>
+                            <li>Gestión de bases de datos (MySQL, MariaDB)</li>
+                            <li>Implementación de osTicket</li>
+                            <li>Mantenimiento a servidores</li>
+                            <li>Soporte técnico a equipos de cómputo</li>
+                            <li>Soporte a usuarios vía remota (Anydesk)</li>
+                            <li>Uso de paquetería Office básico</li>
+                            <li>Virtualización en VirtualBox (Linux, Windows)</li>
+
+
+                        </ol>
+
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <img src="images/wave.svg" alt="wave"  class="wave-bottom">
+
+    </section>
+
+    <!--Fin de seccion de experiencia de trabajo-->
+    
+
+
+
+   <!--Seccion pasatiempos-->
+    <section class="container" id="hobbies">
+
+        <div class=" center">
+            <h4 class="titulo"> 
+
+                Mountain Bike <br>
+                Enduro <br>
+                Downhill
+            </h4>
+
+        </div>
+
+
+        <div class="video-container">
+            <iframe width="500" height="400"
+                src="https://www.youtube.com/embed/xWd6ix5wF_w?clip=UgkxjRJJZYEkXRI9m42B5B2Nm-2bKqau-oAd&amp;clipt=EKp7GJO5BA"
+                frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+
+
+
+
+    </section>
+    <!--Fin de seccion pasatiempos-->
+
+
+    <!--Seccion de cursos -->
+
+
+    <section class="container" id="courses">
+
+        <div class="container center">
+            <h4 class="titulo">
+                Courses
+            </h4>
+
+        </div>
+
+        <div class="row">
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/IT_ESSENTIALS.jpg" alt="" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center red-text">CISCO</span>
+                        <p class="center">2017 - IT <br> Essentials</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/image-asset.png" alt="" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center red-text">NDG</span>
+                        <p class="center">2022 - Linux <br> Unhatched</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/cisco.png" alt="" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center red-text">CISCO</span>
+                        <p class="center">2022 - Cybersecurity <br> Essentials</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col s6 m3">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/cisco1.png" alt="" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title center red-text">CISCO</span>
+                        <p class="center">2021 - Introduction to Cybersecurity</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row ">
+
+            <div class="col s12 m4 center">
+                <div class="card center">
+                    <div class="card-image">
+                        <img src="images/indu.png" alt="" class="responsive-img">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title  red-text">
+                            Fachhochschule
+                            Dortmund University</span>
+                        <p class="center">2020 - Data Science</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Fin de seccion de cursos -->
+
+
+
+    <!-- Modal de contacto -->
+    <div id="modal2" class="modal ">
+
+
+        <div class="modal-content  ">
+
+            <blockquote>
+                <h3 class="red-text">Contact</h3>
+            </blockquote>
+
+            <form class="col s12">
+
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="Nombre" type="text" class="validate">
+                        <label for="Nombre">Nombre</label>
+                    </div>
+                    <div class="input-field col s6">
+                        <input id="Telefono" type="text" class="validate">
+                        <label for="Telefono">Telefono</label>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="Correo" type="email" class="validate">
+                        <label for="Correo">Correo</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col s12">
+                        Escribe un mensaje en la siguiente linea:
+
+                        <div class="input-field ">
+
+                            <textarea id="textarea1" class="materialize-textarea validate"></textarea>
+                            <label for="textarea1">Mensaje</label>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+
+
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn red ">Close<i class="material-icons right">
+                        close</i></a>
+                <a href="#!" class="modal-close waves-effect waves-green btn green pulse">Send<i
+                        class="material-icons right"> send</i></a>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!--Fin de modal de contacto-->
+
+
+    <!--About me-->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content ">
+            <h4 class="red-text">About me!</h4>
+
+            <blockquote>
+
+                <p class="flow-text">
+
+
+
+                    Hi, I´m Edgar Vazquez from Mexico and i´m 25 years, I´m IT engineer and actually i want work, i have
+                    some expertice in the labor field, i have been in different companies.
+                    <br>
+                    I have expertice on different tecnologies of development, i´m a dedicated person, i love tecnology
+                    and i
+                    would like to work with us!
+                    <br>
+                    Please check my portfolio and send me message or contacte me if you want a
+
+                <div class="center">
+
+                    <img src="images/yo1.jpg" alt="" class="responsive-img circle">
+                </div>
+
+                </p>
+
+            </blockquote>
+
+
+        </div>
+
+        <div class="modal-footer">
+            <a href="#modal2" class="modal-close waves-effect waves-red btn-flat modal-trigger ">Contact</a>
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+    <!--End about me-->
+
+
+    <footer class="page-footer cyan darken-4 ">
+
+
+        <div class="container">
+
+
+            <div class="footer-copyright transparent">
+                <div class="center">
+                    EDR © 2022 Copyright
+
+                </div>
+
+                <div class="right-align">
+
+                    <a href="https://materializecss.com/getting-started.html" target="_blank">
+                        <img src="images/materialize.png" class="materia responsive-img " alt="">
+                    </a>
+
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+
+
+</html>
